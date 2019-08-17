@@ -1,0 +1,35 @@
+body .searchbar {
+  background-color: #bc3b69;
+  font-family: Montserrat, sans-serif;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+body .searchbar .icono_ada, body .searchbar .searcher {
+  height: 2em;
+}
+body .searchbar .searcher {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+  border-radius: 12px;
+}
+body .searchbar .searcher input {
+  border: 0px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 8%;
+  width: 30em;
+}
+body .searchbar .searcher .search_btn {
+  border-radius: 0px 5px 5px 0px;
+  box-sizing: border-box;
+  height: 34px;
+  width: 40px;
+  cursor: pointer;
+}
+body .searchbar .searcher .search_btn img {
+  width: 55%;
+}
+
+/*# sourceMappingURL=searchbar.css.map */
