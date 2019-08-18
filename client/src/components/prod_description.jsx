@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
+import "./styles/description.css";
 
 class Description extends Component {
 
@@ -30,10 +31,10 @@ class Description extends Component {
        
         return (
             <div>
-
-              <img src={this.state.prod.picture}  alt=""/>
-              <p>{this.state.prod.title}</p>
-              <p>{this.state.description}</p>
+                <p className="title">{this.state.prod.title}</p>
+              <img className="pic" src={this.state.prod.picture}  alt=""/>
+             
+              <p className="description">{this.state.description}</p>
             </div>
         );
     }
